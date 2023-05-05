@@ -39,6 +39,6 @@ To specify a directory to write `index.html` to use:
 ```
 vaniety \
     example.com/pkg/mylib \
-    https://github.com/example-ord/mylib \
+    https://github.com/example-org/mylib \
    ~/mysite/public/pkg/mylib
 ```
