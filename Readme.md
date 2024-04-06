@@ -20,7 +20,7 @@ Include this in your `.gitconfig` file
 
 ### Install
 ```shell
-go install uradical.io/go/vaniety@latest
+go install uradical.io/go/vanity/cmd/vanity@latest
 ```
 
 
