@@ -3,24 +3,10 @@ Generate the HTML necessary to host Go modules and programs on vanity domains.
 
 ## Installation
 
-### Prerequisites
-:warning: You will need to have configured your access to private repositories with these
-two setps.
-
+### MacOS
 ```shell
-go env -w GOPRIVATE="github.com/uradical/*,uradical.io/go/*"
-```
-
-Include this in your `.gitconfig` file
-
-```
-[url "ssh://git@github.com/"]
-    insteadOf = https://github.com/
-```
-
-### Install
-```shell
-go install uradical.io/go/vanity/cmd/vanity@latest
+brew tap uradical/tap
+brew install vanity
 ```
 
 

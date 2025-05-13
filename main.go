@@ -22,10 +22,10 @@ func usage() {
 	fmt.Printf("\t-h\t - display usage information\n")
 
 	fmt.Printf("\n\tArguments:\n")
-	fmt.Printf("\tvanity [pkg] [url]\n")
+	fmt.Printf("\tvanity <pkg> <repo> [output]\n")
 	fmt.Printf("\tpkg \t - your desired package import path\n")
 	fmt.Printf("\trepo \t - URL to repo\n")
-	fmt.Printf("\toutput \t - path to place the generated index.html\n")
+	fmt.Printf("\toutput \t - optional path for where to place the generated index.html, current working dir will be used if omitted\n")
 }
 
 func generateHTML(pkg, repo string, out io.Writer) error {
